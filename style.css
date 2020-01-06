@@ -14,8 +14,7 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
-    /*background-color: #F8F9FB;*/
-    background-color: black;
+    background-color: #F8F9FB;
     align-items: center;
     min-height: 100vh;
     min-width: 100vw;
@@ -38,5 +37,28 @@ body{
     flex-basis: 0;
     max-width: 275px;
     border-radius: 8px;
+}
+
+.price-column.popular{
+    background-color: var(--accent-color);
+    color: white;
+    box-shadow: 0 7px 30px rgba(52, 13, 135, 0.3);
+    margin-top: -1.5rem;
+    padding-top: 3.5rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 3.5rem;
 
 }
+
+.price-column:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.price-column:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+

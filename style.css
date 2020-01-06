@@ -1,0 +1,52 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root{
+    --accent-color: #3f51b5;
+    --heading-font-family: 'Lato', sans-serif;
+    --body-font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    /*background-color: #F8F9FB;*/
+    background-color: black;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: var(--body-font-family);
+}
+
+.price-comparison{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    align-items: stretch;
+    width:100%;
+}
+
+.price-column{
+    background-color: white;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+    padding:2.5rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 175px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.price-column.popular{
+    background-color: var(--accent-color);
+    color:white
+}
+.price-column:first-child{
+    
+}

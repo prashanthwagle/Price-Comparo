@@ -37,6 +37,7 @@ body{
     flex-basis: 0;
     max-width: 275px;
     border-radius: 8px;
+    
 }
 
 .price-column.popular{
@@ -58,6 +59,57 @@ body{
 .price-column:last-child{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.price-header{
+    display:flex;
+    flex-direction: column;
+}
+
+.price{
+    display:flex;
+    font-size: 3rem;
+}
+
+.dollar-sign{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.plan-month{
+    font-size: 0.8rem;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+    margin-left: 0.3rem;
+}
+
+.plan-name{
+
+}
+
+.divider{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.divider.popular{
+    background-color: white;
+}
+
+.feature{
+    font-family: var(--heading-font-family);
+}
+
+.feature img{
+    width:1em;
+    height:0.5em;
+}
+
+.most-popular{
+    
 }
 
 
